@@ -24,5 +24,6 @@ This could also be done with automated postman tests via fx Azure devops when af
 
 #### Function improvements:
 ShiftsController.GetAllShifts():  Make a optional DATETIME parameter 'since', to fetch all shifts since the supplied datetime.  This would increased performance and speed.
+
 ShiftsController.GetAllShiftsForEmployee():  Make a optional DATETIME parameter 'since', to fetch all shifts for the employee since the supplied datetime.  This would increased performance and speed.
 
